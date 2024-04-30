@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: https://github.com/ananddeshpande1985/aws-workshop-module2.git
+  url: ssh://git@github.com/ananddeshpande1985/aws-workshop-module2
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
